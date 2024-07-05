@@ -30,4 +30,3 @@ export default {
 
 	plugins: [flowbitePlugin]
 } as Config;
-
