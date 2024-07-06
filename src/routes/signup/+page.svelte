@@ -1,3 +1,9 @@
+<script>
+	import { DarkMode } from 'flowbite-svelte';
+</script>
+
+<DarkMode class="absolute right-2 top-2 z-10" />
+
 <div
 	class="relative h-screen bg-gradient-to-br from-sky-50 to-gray-200 py-16 dark:from-slate-700 dark:to-slate-900"
 >
@@ -8,7 +14,7 @@
 					<div class="space-y-4">
 						<img src="/kitty_logo.png" loading="lazy" class="w-10" alt="snaplink logo" />
 						<h2 class="mb-8 text-2xl font-bold text-cyan-900 dark:text-orange-500">
-							Sign in to unlock the <br /> best of SnapLink.
+							Sign in to unlock the <br /> best of Qlink.
 						</h2>
 					</div>
 					<div class="mt-16 grid space-y-4">
