@@ -17,7 +17,9 @@
 </script>
 
 <DarkMode class="absolute right-4 top-4 z-10 hidden sm:inline-block" />
-<Navbar class="bg-gradient-to-r from-green-100 to-gray-200 dark:bg-gradient-to-r dark:from-black dark:to-zinc-950">
+<Navbar
+	class="bg-gradient-to-r from-green-100 to-gray-200 dark:bg-gradient-to-r dark:from-black dark:to-zinc-950"
+>
 	<NavBrand href="/">
 		<img src="/kitty_logo.png" class="me-3 h-6 sm:h-9" alt="snaplink Logo" />
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">SnapLink</span
@@ -39,9 +41,9 @@
 		<DropdownItem>Sign out</DropdownItem>
 	</Dropdown>
 	<NavUl>
-		<NavLi href="/about">About</NavLi>
-		<NavLi href="/pricing">Pricing</NavLi>
-		<NavLi href="/contact">Contact</NavLi>
+		<NavLi class="lato-bold" href="/dashboard/about">About</NavLi>
+		<NavLi class="lato-bold" href="/dashboard/pricing">Pricing</NavLi>
+		<NavLi class="lato-bold" href="/dashboard/contact">Contact</NavLi>
 		<SidebarDropdownWrapper class="sm:hidden" label="Dashboard">
 			<svelte:fragment slot="icon">
 				<img src="/dashboard.png" alt="dashboard" class="h-5 w-5" />
@@ -50,12 +52,11 @@
 			<SidebarDropdownItem href="create-link" label="Create link" />
 			<SidebarDropdownItem href="links" label="My links" />
 			<SidebarDropdownItem href="settings" label="Settings" />
-
 		</SidebarDropdownWrapper>
 	</NavUl>
 </Navbar>
 
 <div class="flex">
-	<Sidebar  />
+	<Sidebar />
 	<slot />
 </div>
