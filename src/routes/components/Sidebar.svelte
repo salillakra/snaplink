@@ -1,5 +1,5 @@
 <script>
-	import { P, DropdownDivider } from 'flowbite-svelte';
+	import { P, DropdownDivider, DarkMode } from 'flowbite-svelte';
 
 	const menu_items = {
 		statistics: {
@@ -26,7 +26,7 @@
 </script>
 
 <div
-	class="hidden h-[92vh] w-[20%] min-w-44 border-r-2 border-gray-950 bg-white dark:bg-black sm:block"
+	class="relative hidden h-[92vh] w-[20%] min-w-44 border-r-2 border-gray-950 bg-white dark:bg-black sm:block"
 >
 	<div
 		class=" flex cursor-pointer items-center space-x-3 pl-2 hover:animate-pulse dark:text-white lg:pl-5"
@@ -46,5 +46,7 @@
 				{value.name}</a
 			>
 		{/each}
+
+		<DarkMode class="absolute bottom-8 left-4" />
 	</div>
 </div>

@@ -5,7 +5,7 @@
 <DarkMode class="absolute right-2 top-2 z-10" />
 
 <div
-	class="relative h-screen bg-gradient-to-br from-sky-50 to-gray-200 py-16 dark:from-slate-700 dark:to-slate-900"
+	class="relative bg-gradient-to-br from-sky-50 to-gray-200 py-16 dark:from-slate-700 dark:to-slate-900"
 >
 	<div class="container relative m-auto px-6 text-gray-500 md:px-12 xl:px-40">
 		<div class="m-auto md:w-8/12 lg:w-6/12 xl:w-6/12">
