@@ -47,6 +47,6 @@
 			>
 		{/each}
 
-		<DarkMode class="absolute bottom-8 left-4" />
+		<DarkMode class="absolute bottom-5 left-4" />
 	</div>
 </div>
